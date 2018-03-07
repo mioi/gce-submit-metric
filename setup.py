@@ -16,7 +16,7 @@ PYTEST_RUNNER = ['pytest-runner==2.11.1'] if NEEDS_PYTEST else []
 
 setup(
     name='gce-submit-metric',
-    version='1.0.0',
+    version='1.1.0',
     description='Submit a metric for GCE instances to Stackdriver',
     long_description='Submit a metric for GCE instances to Stackdriver',
     classifiers=[
@@ -35,7 +35,7 @@ setup(
     },
     setup_requires=PYTEST_RUNNER,
     install_requires=[
-        'google-cloud-monitoring==0.28.0',
+        'google-cloud-monitoring==0.26.0',
         'requests==2.18.4',
         'mock=={}'.format(MOCK_VERSION),
         'pylint=={}'.format(PYLINT_VERSION),
