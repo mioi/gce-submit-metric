@@ -36,7 +36,7 @@ setup(
     setup_requires=PYTEST_RUNNER,
     install_requires=[
         'google-cloud-monitoring==0.26.0',
-        'requests==2.18.4',
+        'requests==2.20.0',
         'mock=={}'.format(MOCK_VERSION),
         'pylint=={}'.format(PYLINT_VERSION),
         'pytest=={}'.format(PYTEST_VERSION),
